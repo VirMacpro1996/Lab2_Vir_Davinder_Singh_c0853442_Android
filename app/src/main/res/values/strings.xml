@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DBdemo</string>
+
+
+    <string name="add">Add</string>
+    <string name="display_products">Display Products</string>
+    <string name="employee_name_placeholder">John chamili</string>
+    <string name="department_placeholder">Technical</string>
+    <string name="salary_placeholder">CAD $5000</string>
+    <string name="date_placeholder">2000-02-02 11:11:11</string>
+    <string name="update_btn_txt">update</string>
+    <string name="delete_btn_txt">Delete</string>
+    <string name="update">update</string>
+    <string name="update_the_employee">Update the employee</string>
+    <string name="add_1">add</string>
+    <string name="audi_r8_desc">The R8 is a two-seat sports car that\'s based on the Audi Le Mans Quattro concept car. The first R8 models came standard with a V8 engine and were available with a V10. The R8\'s convertible body style, known as the Spyder, was also introduced for 2008.J</string>
+    <string name="price_audi">CAD $2000</string>
+    <string name="description_placeholder">Enter the Description of Product</string>
+    <string name="name_placeholer_product">Enter the name of the Product</string>
+    <string name="price_placeholder">Enter the price of the Product</string>
+    <string name="placeholder_name">Enter the name of the Product</string>
+    <string name="new_poduct_place">New Product</string>
+    <string name="name_Place">Enter the name of the Product</string>
+    <string name="enter_the_description_of_the_product">Enter the description of the Product</string>
+
+
+</resources>

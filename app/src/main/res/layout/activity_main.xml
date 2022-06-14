@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_poduct_place"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_name"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/name_Place"
+            android:minHeight="50dp"
+            android:paddingHorizontal="5dp"/>
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_price"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/price_placeholder"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:minHeight="50dp"
+            android:paddingHorizontal="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_description"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/enter_the_description_of_the_product"
+            android:minHeight="50dp"
+            android:paddingHorizontal="5dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btn_add"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/add"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv_display"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="10dp"
+            android:text="@string/display_products"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
